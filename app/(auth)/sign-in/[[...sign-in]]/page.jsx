@@ -1,6 +1,12 @@
+'use client';
 import { SignIn } from '@clerk/nextjs'
-
+// import { useEffect, useState } from 'react';
 export default function Page() {
+  // const [isClient, setIsClient] = useState(false);
+
+  // useEffect(() => {
+  //   setIsClient(true);
+  // }, []);
   return (
 
 <section className="bg-white">
@@ -63,12 +69,11 @@ export default function Page() {
           </a>
 
           <h1 className="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
-            Welcome to Squid 🦑
+          Welcome to  MockMate AI 
           </h1>
 
           <p className="mt-4 leading-relaxed text-gray-500">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam dolorum aliquam,
-            quibusdam aperiam voluptatum.
+          <b>MockMate </b> is an AI-powered mock interview platform that tailors questions based on job roles and experience. It activates the camera and displays questions in real-time, providing a realistic interview experience with AI-driven feedback. 🚀
           </p>
         </div>
         <SignIn />
