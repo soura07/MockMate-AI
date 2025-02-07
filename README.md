@@ -33,6 +33,6 @@ A modern **MockMate-AI** built with **React, Next.js, and ShadCN**, leveraging *
 Clone the repo:
 ```bash
 git clone https://github.com/soura07/MockMate-AI.git
-cd interview-platform
+cd MockMate-AI
 
 
