@@ -24,7 +24,7 @@ function AddNewInterview() {
     const [openDailog,setOpenDailog]=useState(false)
     const [jobPosition,setJobPosition]=useState();
     const [jobDesc,setJobDesc]=useState();
-    const [jobExperience,setJobExperience]=useState();
+    const [jobExperience,setJobExperience]=useState(1);
     const [loading,setLoading]=useState(false);
     const [jsonResponse,setJsonResponse]=useState([]);
     const router=useRouter();
@@ -79,12 +79,12 @@ function AddNewInterview() {
        
         <DialogContent className="max-w-2xl">
             <DialogHeader >
-            <DialogTitle className="text-2xl" >Tell us more about your job interviwing</DialogTitle>
+            <DialogTitle className="text-2xl" >Tell us more about your job interviewing</DialogTitle>
             <DialogDescription>
                 <form onSubmit={onSubmit}>
                 <div>
                    
-                    <h2>Add Details about yout job position/role, Job description and years of experience</h2>
+                    <h2>Add Details about your job position/role, Job description and years of experience</h2>
 
                     <div className='mt-7 my-3'>
                         <label>Job Role/Job Position</label>
@@ -100,8 +100,9 @@ function AddNewInterview() {
                     </div>
                     <div className=' my-3'>
                         <label>Years of experience</label>
-                        <Input placeholder="Ex.5"  type="number"  max="100" 
+                        <Input placeholder="Ex. 5" type="number" min="1" max="100" 
                         required
+                        value={jobExperience}
                         onChange={(event)=>setJobExperience(event.target.value)}
                         />
                     </div>
