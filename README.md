@@ -1,6 +1,10 @@
 # 📌 MockMate-AI -- AI Interview Platform
 
-A modern **MockMate-AI** built with **React, Next.js, and ShadCN**, leveraging **Clerk** for authentication, **Gemini API** for AI-driven features, and **Neon PostgreSQL + Drizzle** for database management. Includes **React WebCam** for video-based interactions.
+***MockMate-AI*** is an innovative, AI-powered interview preparation platform designed to help job seekers excel in their interviews. The project simulates realistic interview scenarios and provides personalized, real-time feedback to highlight strengths and identify areas for improvement.
+
+Built using modern web technologies such as Next.js and React, along with advanced AI and data management tools, MockMate-AI offers features like dynamic mock interviews, customizable prompts, and detailed performance analytics—all aimed at transforming the traditional interview coaching experience.
+
+By democratizing access to effective interview training, MockMate-AI empowers users to build confidence and refine their skills, ultimately increasing their chances of landing their dream job.
 
 ---
 
