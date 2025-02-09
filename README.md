@@ -1,4 +1,7 @@
-![New Website Blue Mockup Instagram - Laptop](https://github.com/user-attachments/assets/48a8c12f-4c90-4c10-b651-565e6277c0b1)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/48a8c12f-4c90-4c10-b651-565e6277c0b1" width="700">
+</p>
+
 
 
 # 📌 MockMate-AI -- AI Interview Platform
