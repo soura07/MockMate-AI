@@ -1,3 +1,6 @@
+![New Website Blue Mockup Instagram - Laptop](https://github.com/user-attachments/assets/48a8c12f-4c90-4c10-b651-565e6277c0b1)
+
+
 # 📌 MockMate-AI -- AI Interview Platform
 
 ***MockMate-AI*** is an innovative, AI-powered interview preparation platform designed to help job seekers excel in their interviews. The project simulates realistic interview scenarios and provides personalized, real-time feedback to highlight strengths and identify areas for improvement.
